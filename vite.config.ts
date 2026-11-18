@@ -1,13 +1,13 @@
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
-import fs from 'fs';
-import path from 'path';
-import {defineConfig} from 'vite';
+import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
+import fs from 'fs'
+import path from 'path'
+import { defineConfig } from 'vite'
 
 export default defineConfig(() => {
-  return { base: '/sezon/',
+	return {
+		base: '/sezon/',
 		plugins: [
-      
 			react(),
 			tailwindcss(),
 			// Copies src/assets into dist/ so root-relative URLs like
@@ -42,4 +42,4 @@ export default defineConfig(() => {
 			watch: process.env.DISABLE_HMR === 'true' ? null : {},
 		},
 	}
-});
+})
