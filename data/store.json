@@ -1,0 +1,162 @@
+{
+  "nextOrderNumber": 103,
+  "menu": [
+    {
+      "id": "dish-burrata",
+      "name": "Буррата с печёными томатами",
+      "category": "Закуски",
+      "description": "Сливочная буррата, запечённые томаты черри, зелёное масло базилика и тёплый ремесленный хлеб на закваске.",
+      "price": 780,
+      "weight": "240 г",
+      "prepMinutes": 10,
+      "imageUrl": "/src/assets/images/dish_burrata_tomatoes_1794936265197.jpg",
+      "available": true,
+      "tag": "Выбор шефа"
+    },
+    {
+      "id": "dish-tartare",
+      "name": "Тартар из говядины с бриошью",
+      "category": "Закуски",
+      "description": "Мраморная вырезка ручной рубки, вяленый желток, каперсы, маринованный шалот и хрустящие тосты из бриоши.",
+      "price": 890,
+      "weight": "190 г",
+      "prepMinutes": 12,
+      "imageUrl": "/src/assets/images/dish_beef_tartare_1794936263128.jpg",
+      "available": true
+    },
+    {
+      "id": "dish-salmon",
+      "name": "Лосось со спаржей и лимонным соусом",
+      "category": "Горячие блюда",
+      "description": "Филе атлантического лосося с хрустящей кожей, обжаренная зелёная спаржа, соус бёр-блан с укропом и цедрой.",
+      "price": 1390,
+      "weight": "290 г",
+      "prepMinutes": 18,
+      "imageUrl": "/src/assets/images/dish_salmon_asparagus_1794936262756.jpg",
+      "available": true,
+      "tag": "Сезонное"
+    },
+    {
+      "id": "dish-duck",
+      "name": "Утиная ножка конфи с пюре из пастернака",
+      "category": "Горячие блюда",
+      "description": "Томлёная утиная ножка с золотистой корочкой, шёлковое пюре из пастернака, глазированная морковь и ягодный жю.",
+      "price": 1290,
+      "weight": "320 г",
+      "prepMinutes": 22,
+      "imageUrl": "/src/assets/images/dish_duck_confit_1794936263406.jpg",
+      "available": true
+    },
+    {
+      "id": "dish-risotto",
+      "name": "Ризотто с лисичками и трюфелем",
+      "category": "Горячие блюда",
+      "description": "Рис карнароли на грибном бульоне, лесные лисички, стружка чёрного трюфеля, выдержанный пармезан и свежий тимьян.",
+      "price": 1090,
+      "weight": "300 г",
+      "prepMinutes": 20,
+      "imageUrl": "/src/assets/images/dish_truffle_risotto_1794936264185.jpg",
+      "available": true,
+      "tag": "Выбор шефа"
+    },
+    {
+      "id": "dish-cheesecake",
+      "name": "Баскский чизкейк с ягодами",
+      "category": "Десерты",
+      "description": "Карамелизованный сливочный чизкейк с нежной серединой, тёплый ягодный соус и свежая малина.",
+      "price": 560,
+      "weight": "170 г",
+      "prepMinutes": 8,
+      "imageUrl": "/src/assets/images/dish_baked_cheesecake_1794936263994.jpg",
+      "available": true
+    },
+    {
+      "id": "dish-fondant",
+      "name": "Шоколадный фондан с ванильным пломбиром",
+      "category": "Десерты",
+      "description": "Тёплый кекс из тёмного бельгийского шоколада с жидкой сердцевиной и шариком домашнего ванильного джелато.",
+      "price": 620,
+      "weight": "180 г",
+      "prepMinutes": 14,
+      "imageUrl": "/src/assets/images/dish_chocolate_fondant_1794936264787.jpg",
+      "available": true
+    },
+    {
+      "id": "dish-yuzu",
+      "name": "Игристый лимонад юдзу-розмарин",
+      "category": "Напитки",
+      "description": "Освежающий авторский лимонад на пюре японского цитруса юдзу с веточкой свежего розмарина и дробленым льдом.",
+      "price": 420,
+      "weight": "350 мл",
+      "prepMinutes": 5,
+      "imageUrl": "/src/assets/images/dish_matcha_yuzu_1794936265025.jpg",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-seed-102",
+      "orderNumber": 102,
+      "sessionId": "seed-session-2",
+      "tableNumber": "Стол 3",
+      "customerName": "Мария",
+      "comment": "Подать напиток сразу к закуске",
+      "items": [
+        {
+          "dishId": "dish-burrata",
+          "name": "Буррата с печёными томатами",
+          "price": 780,
+          "imageUrl": "/src/assets/images/dish_burrata_tomatoes_1794936265197.jpg",
+          "quantity": 1
+        },
+        {
+          "dishId": "dish-risotto",
+          "name": "Ризотто с лисичками и трюфелем",
+          "price": 1090,
+          "imageUrl": "/src/assets/images/dish_truffle_risotto_1794936264185.jpg",
+          "quantity": 1
+        },
+        {
+          "dishId": "dish-yuzu",
+          "name": "Игристый лимонад юдзу-розмарин",
+          "price": 420,
+          "imageUrl": "/src/assets/images/dish_matcha_yuzu_1794936265025.jpg",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 2710,
+      "status": "preparing",
+      "createdAt": "2026-11-17T17:21:33.180Z",
+      "updatedAt": "2026-11-17T17:21:33.180Z"
+    },
+    {
+      "id": "order-seed-101",
+      "orderNumber": 101,
+      "sessionId": "seed-session-1",
+      "tableNumber": "Стол 7",
+      "customerName": "Алексей",
+      "comment": "",
+      "items": [
+        {
+          "dishId": "dish-salmon",
+          "name": "Лосось со спаржей и лимонным соусом",
+          "price": 1390,
+          "imageUrl": "/src/assets/images/dish_salmon_asparagus_1794936262756.jpg",
+          "quantity": 2
+        },
+        {
+          "dishId": "dish-cheesecake",
+          "name": "Баскский чизкейк с ягодами",
+          "price": 560,
+          "imageUrl": "/src/assets/images/dish_baked_cheesecake_1794936263994.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 3340,
+      "status": "ready",
+      "createdAt": "2026-11-17T17:13:33.180Z",
+      "updatedAt": "2026-11-17T17:21:33.180Z"
+    }
+  ],
+  "activeCarts": {}
+}
