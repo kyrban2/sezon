@@ -5,8 +5,9 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
+  return { base: '/sezon/',
 		plugins: [
+      
 			react(),
 			tailwindcss(),
 			// Copies src/assets into dist/ so root-relative URLs like
